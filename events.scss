@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Unicase:wght@300;400;500;600;700&family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+
+$primary-bg-1: #b0b182;
+$primary-bg-2: #7ca2a1;
+$primary-bg-3: #c1d5c9;
+$title-color: #fbf6e0;
+$profile-bg: #04385d;
+
+$primary-font-family: 'Cormorant Unicase';
+$secondary-font-family: 'Jost';
+
+$title-font-size: 3.125rem;
+$para-font-size: 1.125rem;
+
+$text-shadow:
+    -5px 3px 4px rgba(0,0,0,0.33);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+// Main container styles
+#events-section {
+    background: $primary-bg-1;
+
+    .event-title {
+        text-align: left;
+        padding-top: 20px;
+        margin-left: 100px;
+        margin-right: 100px;
+
+        h1 {
+            font-size: $title-font-size;
+            text-shadow: $text-shadow;
+            color: $title-color;
+            margin-bottom: 20px;
+            font-family: $primary-font-family;
+        }
+
+        p {
+            font-size: $para-font-size;
+            font-family: $secondary-font-family;
+        }
+    }
+
+    .events-container {
+        margin-left: 100px;
+        margin-right: 100px;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 20px;
+        padding: 20px;
+
+        .event-card {
+            background: #f7f7f7;
+            padding: 15px;
+            border-radius: 10px;
+            cursor: pointer;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+            h3 {
+                font-size: 1.5em;
+                font-family: $primary-font-family;
+                margin-bottom: 5px;
+            }
+
+            p {
+                font-size: 1.25rem;
+                font-family: $secondary-font-family;
+            }
+
+            &:hover {
+                transform: translateY(-5px);
+                box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+            }
+        }
+    }
+}
+
+// Gallery overlay styles
+.gallery-overlay {
+    display: none; // Initially hidden
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.8);
+    z-index: 1000;
+    justify-content: center; // Centers content horizontally
+    align-items: center; // Centers content vertically
+
+    .gallery-content {
+        position: relative;
+        max-width: 90%; // Adjust width for responsiveness
+        max-height: 90%; // Adjust height for responsiveness
+        margin: auto;
+        background: #fff;
+        padding: 10px;
+        border-radius: 10px;
+        overflow: hidden;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+
+        .scrollable-gallery {
+            display: flex;
+            gap: 10px;
+            overflow-x: auto; // Enable horizontal scrolling
+            max-height: 300px;
+            padding: 10px;
+            scroll-behavior: smooth; // Smooth scrolling
+
+            img {
+                max-height: 250px;
+                border-radius: 5px;
+                transition: transform 0.3s ease;
+
+                &:hover {
+                    transform: scale(1.05);
+                }
+            }
+        }
+
+        .close-btn {
+            position: absolute;
+            top: 5px;
+            right: 5px;
+            font-size: 24px;
+            cursor: pointer;
+            background: #f44336;
+            color: #fff;
+            width: 30px;
+            height: 30px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+            transition: background 0.3s ease;
+            z-index: 1000;
+
+            &:hover {
+                background: #d32f2f;
+            }
+        }
+    }
+}
+
+// Full-screen image overlay styles
+.fullscreen-overlay {
+    display: none; // Initially hidden
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.9);
+    z-index: 1100; // Higher z-index than the gallery
+    justify-content: center; // Center the image horizontally
+    align-items: center; // Center the image vertically
+
+    img {
+        max-width: 90%;
+        max-height: 90%;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    }
+
+    .close-fullscreen {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        font-size: 24px;
+        cursor: pointer;
+        background: #f44336;
+        color: #fff;
+        width: 30px;
+        height: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+        transition: background 0.3s ease;
+
+        &:hover {
+            background: #d32f2f;
+        }
+    }
+}
