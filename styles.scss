@@ -947,6 +947,10 @@ header {
 }
 
 @media only screen and (max-width: 480px) {
+    body {
+        overflow-x: hidden;
+    }
+
     header {
         .title {
             margin-left: 20px;
@@ -991,113 +995,117 @@ header {
             }
         }
     }
-}
 
-#home {
-    background: linear-gradient(0deg, $primary-bg-2 55%, $primary-bg-3 45%);
-
-    .left-right-container {
-        flex-direction: column-reverse;
-        justify-content: flex-end;
-        align-items: center;
-
-        .left {
+    #home {
+        background: linear-gradient(0deg, $primary-bg-2 55%, $primary-bg-3 45%);
+    
+        .left-right-container {
+            flex-direction: column-reverse;
             justify-content: flex-end;
-            padding: 0 50px;
-            width: auto;
-
+            align-items: center;
+    
+            .left {
+                justify-content: flex-end;
+                padding: 0 50px;
+                width: auto;
+    
+                h1 {
+                    font-size: 2.125rem;
+                }
+            }
+    
+            .right {
+                width: 70%;
+            }
+    
+            .scroll-text {
+                width: 100%;
+            }
+        }
+    }
+    
+    #university-notifications {
+        height: 100vh;
+        padding: 40px 20px;
+    
+        .notification-title {
+            margin: 0;
+    
             h1 {
                 font-size: 2.125rem;
             }
         }
-
-        .right {
-            width: 70%;
+    
+        .notification-list {
+            margin: 0;
+    
+            .notification {
+                min-width: 100%;
+            }
         }
     }
-}
-
-#university-notifications {
-    height: 100vh;
-    padding: 40px 20px;
-
-    .notification-title {
-        margin: 0;
-
-        h1 {
-            font-size: 2.125rem;
+    
+    #gallery {
+        .gallery-title {
+            margin: 0;
+            padding: 0;
+        }
+    
+        .gallery-container {
+            .image-card {
+                height: 250px;
+                min-width: 40%;
+                max-width: 50%;
+            }
         }
     }
-
-    .notification-list {
-        margin: 0;
-
-        .notification {
-            min-width: 100%;
+    
+    #events {
+        .left-right-container {
+            flex-direction: column;
+    
+            .left {
+                width: 100%;
+                padding: 0 20px;
+                margin: 40px 0;
+    
+                h1 {
+                    font-size: 2.125rem;
+                }
+            }
+    
+            .right {
+                height: 90%;
+                width: 100%;
+                flex-wrap: wrap;
+                align-content: flex-start;
+            }
         }
     }
-}
-
-#gallery {
-    .gallery-title {
-        margin: 0;
-        padding: 0;
-    }
-
-    .gallery-container {
-        .image-card {
-            height: 250px;
-            min-width: 40%;
-            max-width: 50%;
+    
+    #downloads {
+        .downloads-title {
+            margin: 0;
+        }
+    
+        .downloads-container {
+            margin: 0;
+    
+            .downloads, .sample-questions {
+                min-width: 100%;
+            }
         }
     }
-}
-
-#events {
-    .left-right-container {
+    
+    #about-contact {
         flex-direction: column;
-
-        .left {
-            width: 100%;
-            padding: 0 20px;
-            margin: 40px 0;
-
-            h1 {
-                font-size: 2.125rem;
-            }
+    
+        .about-us {
+            margin: 0;
         }
-
-        .right {
-            height: 90%;
-            width: 100%;
-            flex-wrap: wrap;
-            align-content: flex-start;
+    
+        .contact-us {
+            margin: 0;
         }
-    }
-}
-
-#downloads {
-    .downloads-title {
-        margin: 0;
-    }
-
-    .downloads-container {
-        margin: 0;
-
-        .downloads, .sample-questions {
-            min-width: 100%;
-        }
-    }
-}
-
-#about-contact {
-    flex-direction: column;
-
-    .about-us {
-        margin: 0;
-    }
-
-    .contact-us {
-        margin: 0;
     }
 }
