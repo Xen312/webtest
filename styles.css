@@ -910,6 +910,7 @@ header nav .nav-links .menu-btn i {
   }
   #events .left-right-container {
     flex-direction: column;
+    height: calc(100vh - 100px);
   }
   #events .left-right-container .left {
     width: 100%;

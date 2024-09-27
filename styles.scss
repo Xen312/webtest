@@ -1093,6 +1093,7 @@ header {
 
         .left-right-container {
             flex-direction: column;
+            height: calc(100vh - 100px);
     
             .left {
                 width: 100%;
