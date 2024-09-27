@@ -558,7 +558,7 @@ header nav .nav-links .menu-btn i {
   border: none;
   padding: 10px 20px;
   cursor: pointer;
-  transition: #c1d5c9 0.3s ease;
+  transition: 0.3s ease;
   margin-right: 5px;
   font-size: 1.125rem;
   font-family: "Jost";
@@ -867,22 +867,43 @@ header nav .nav-links .menu-btn i {
     margin: 0;
   }
   #university-notifications .notification-title h1 {
-    font-size: 2.125rem;
+    font-size: 2rem;
+  }
+  #university-notifications .notification-title p {
+    font-size: 0.7rem;
   }
   #university-notifications .notification-list {
     margin: 0;
   }
   #university-notifications .notification-list .notification {
     min-width: 100%;
+    padding: 10px;
+  }
+  #university-notifications .notification-list .notification p {
+    font-size: 0.7rem;
+    margin: 10px 0;
+  }
+  #university-notifications .notification-list .notification a {
+    font-size: 0.9rem;
   }
   #gallery .gallery-title {
     margin: 0;
     padding: 0;
   }
+  #gallery .gallery-title h1 {
+    font-size: 2rem;
+  }
+  #gallery .gallery-title p {
+    font-size: 0.7rem;
+  }
   #gallery .gallery-container .image-card {
     height: 250px;
     min-width: 40%;
     max-width: 50%;
+  }
+  #gallery .gallery-container .image-card button {
+    font-size: 0.8125rem;
+    padding: 10px 5px;
   }
   #events .left-right-container {
     flex-direction: column;
@@ -893,7 +914,15 @@ header nav .nav-links .menu-btn i {
     margin: 40px 0;
   }
   #events .left-right-container .left h1 {
-    font-size: 2.125rem;
+    font-size: 2rem;
+  }
+  #events .left-right-container .left p {
+    font-size: 0.7rem;
+  }
+  #events .left-right-container .left button {
+    font-size: 0.7rem;
+    margin-top: 20px;
+    padding: 15px;
   }
   #events .left-right-container .right {
     height: 90%;
@@ -901,8 +930,17 @@ header nav .nav-links .menu-btn i {
     flex-wrap: wrap;
     align-content: flex-start;
   }
+  #events .left-right-container .timeline-container {
+    font-size: 0.7rem;
+  }
   #downloads .downloads-title {
     margin: 0;
+  }
+  #downloads .downloads-title h1 {
+    font-size: 2rem;
+  }
+  #downloads .downloads-title p {
+    font-size: 0.7rem;
   }
   #downloads .downloads-container {
     margin: 0;
@@ -910,13 +948,61 @@ header nav .nav-links .menu-btn i {
   #downloads .downloads-container .downloads, #downloads .downloads-container .sample-questions {
     min-width: 100%;
   }
+  #downloads .downloads-container .downloads .tabs .tab-button, #downloads .downloads-container .sample-questions .tabs .tab-button {
+    font-size: 0.7rem;
+  }
+  #downloads .downloads-container .downloads .accordion .accordion-item .accordion-tab, #downloads .downloads-container .downloads .accordion .accordion-item .accordion-content, #downloads .downloads-container .sample-questions .accordion .accordion-item .accordion-tab, #downloads .downloads-container .sample-questions .accordion .accordion-item .accordion-content {
+    font-size: 0.7rem;
+  }
   #about-contact {
     flex-direction: column;
   }
   #about-contact .about-us {
     margin: 0;
   }
+  #about-contact .about-us h1 {
+    font-size: 2rem;
+  }
+  #about-contact .about-us p {
+    font-size: 0.7rem;
+  }
   #about-contact .contact-us {
     margin: 0;
+  }
+  #about-contact .contact-us h1 {
+    font-size: 2rem;
+  }
+  #about-contact .contact-us form .form-group label {
+    font-size: 0.7rem;
+  }
+  #about-contact .contact-us form .form-group input {
+    font-size: 0.7rem;
+    padding: 5px;
+  }
+  #about-contact .contact-us form .form-group textarea {
+    font-size: 0.7rem;
+    padding: 5px;
+  }
+  #about-contact .contact-us form button[type=submit] {
+    font-size: 0.7rem;
+    padding: 5px 15px;
+  }
+  #footer {
+    padding: 10px 0;
+  }
+  #footer p {
+    font-size: 0.7rem;
+  }
+  #teachers .teachers-title {
+    padding: 40px 0 0 20px;
+  }
+  #teachers .teachers-title h1 {
+    font-size: 2rem;
+  }
+  #teachers .profile-card-container {
+    margin: 0;
+  }
+  #teachers .profile-card-container .profile-card {
+    width: 90%;
   }
 }/*# sourceMappingURL=styles.css.map */
