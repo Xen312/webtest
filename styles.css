@@ -845,7 +845,7 @@ header nav .nav-links .menu-btn i {
     align-content: space-between;
   }
   #home .left-right-container .left {
-    margin-bottom: 100px;
+    margin-bottom: 140px;
     grid-row: 2;
     padding: 0 0 0 20px;
     width: auto;
@@ -904,6 +904,9 @@ header nav .nav-links .menu-btn i {
   #gallery .gallery-container .image-card button {
     font-size: 0.8125rem;
     padding: 10px 5px;
+  }
+  #events {
+    height: 100%;
   }
   #events .left-right-container {
     flex-direction: column;
@@ -995,12 +998,15 @@ header nav .nav-links .menu-btn i {
   }
   #teachers .teachers-title {
     padding: 40px 0 0 20px;
+    margin-bottom: 20px;
   }
   #teachers .teachers-title h1 {
     font-size: 2rem;
   }
   #teachers .profile-card-container {
     margin: 0;
+    justify-items: center;
+    padding: 0;
   }
   #teachers .profile-card-container .profile-card {
     width: 90%;

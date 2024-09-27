@@ -1005,7 +1005,7 @@ header {
             align-content: space-between;
     
             .left {
-                margin-bottom: 100px;
+                margin-bottom: 140px;
                 grid-row: 2;
                 padding: 0 0 0 20px;
                 width: auto;
@@ -1089,6 +1089,8 @@ header {
     }
     
     #events {
+        height: 100%;
+
         .left-right-container {
             flex-direction: column;
     
@@ -1219,6 +1221,7 @@ header {
     #teachers {
         .teachers-title {
             padding: 40px 0 0 20px;
+            margin-bottom: 20px;
 
             h1 {
                 font-size: 2rem;
@@ -1227,6 +1230,8 @@ header {
 
         .profile-card-container {
             margin: 0;
+            justify-items: center;
+            padding: 0;
 
             .profile-card {
                 width: 90%;
