@@ -7,6 +7,7 @@
 
 #events-section {
   background: #b0b182;
+  height: auto;
 }
 #events-section .event-title {
   text-align: left;
@@ -47,7 +48,7 @@
   margin-bottom: 5px;
 }
 #events-section .events-container .event-card p {
-  font-size: 1.25rem;
+  font-size: 1rem;
   font-family: "Jost";
 }
 #events-section .events-container .event-card:hover {
@@ -156,9 +157,23 @@
 @media only screen and (max-width: 480px) {
   #events-section .event-title {
     margin: 0;
-    padding: 40px 0 0 20px;
+    padding: 20px 20px 0 20px;
   }
   #events-section .event-title h1 {
     font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  #events-section .event-title p {
+    font-size: 0.7rem;
+  }
+  #events-section .events-container {
+    margin: 0;
+    padding: 10px;
+  }
+  #events-section .events-container .event-card h3 {
+    font-size: 1.125rem;
+  }
+  #events-section .events-container .event-card p {
+    font-size: 0.9rem;
   }
 }/*# sourceMappingURL=events.css.map */
