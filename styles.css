@@ -981,15 +981,13 @@ header nav .nav-links .menu-btn i {
   }
   #about-contact .contact-us form .form-group input {
     font-size: 0.7rem;
-    padding: 5px;
   }
   #about-contact .contact-us form .form-group textarea {
     font-size: 0.7rem;
-    padding: 5px;
   }
   #about-contact .contact-us form button[type=submit] {
     font-size: 0.7rem;
-    padding: 5px 15px;
+    padding: 10px 15px;
   }
   #footer {
     padding: 10px 0;
