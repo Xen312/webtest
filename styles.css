@@ -840,15 +840,14 @@ header nav .nav-links .menu-btn i {
     background: linear-gradient(0deg, #7ca2a1 55%, #c1d5c9 45%);
   }
   #home .left-right-container {
-    flex-direction: column-reverse;
-    justify-content: space-evenly;
-    align-items: center;
+    display: grid;
+    justify-items: center;
+    align-content: space-between;
   }
   #home .left-right-container .left {
-    position: relative;
-    top: -45px;
-    justify-content: flex-end;
-    padding: 0 50px;
+    margin-bottom: 100px;
+    grid-row: 2;
+    padding: 0 0 0 20px;
     width: auto;
   }
   #home .left-right-container .left h1 {
