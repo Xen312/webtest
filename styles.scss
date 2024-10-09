@@ -877,8 +877,12 @@ header {
         justify-content: left;
     
         .profile-card {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            align-content: space-between;
             width: 300px;
-            background: linear-gradient(to bottom, $title-color 23%, $profile-bg 0%);
+            background: linear-gradient(to bottom, $title-color 20%, $profile-bg 0%);
             border-radius: 20px;
             color: #ffffff;
             overflow: hidden;
@@ -926,7 +930,7 @@ header {
                         background-color: rgba(255, 255, 255, 0.1); // Slight contrast
                         padding: 10px;
                         border-radius: 5px;
-                        width: 45%;
+                        width: 30%;
         
                         h3 {
                             font-size: 1.8rem;

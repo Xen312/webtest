@@ -740,8 +740,12 @@ header nav .nav-links .menu-btn i {
   justify-content: left;
 }
 #teachers .profile-card-container .profile-card {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-content: space-between;
   width: 300px;
-  background: linear-gradient(to bottom, #fbf6e0 23%, #04385d 0%);
+  background: linear-gradient(to bottom, #fbf6e0 20%, #04385d 0%);
   border-radius: 20px;
   color: #ffffff;
   overflow: hidden;
@@ -785,7 +789,7 @@ header nav .nav-links .menu-btn i {
   background-color: rgba(255, 255, 255, 0.1);
   padding: 10px;
   border-radius: 5px;
-  width: 45%;
+  width: 30%;
 }
 #teachers .profile-card-container .profile-card .profile-details .stats .stat-item h3 {
   font-size: 1.8rem;
