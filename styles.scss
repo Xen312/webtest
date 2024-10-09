@@ -1002,6 +1002,7 @@ header {
 
     #home {
         background: linear-gradient(0deg, $primary-bg-2 55%, $primary-bg-3 45%);
+        height: 100svh;
     
         .left-right-container {
             display: grid;

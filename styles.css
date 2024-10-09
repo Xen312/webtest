@@ -842,6 +842,7 @@ header nav .nav-links .menu-btn i {
   }
   #home {
     background: linear-gradient(0deg, #7ca2a1 55%, #c1d5c9 45%);
+    height: 100svh;
   }
   #home .left-right-container {
     display: grid;
