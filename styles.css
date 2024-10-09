@@ -769,6 +769,9 @@ header nav .nav-links .menu-btn i {
 #teachers .profile-card-container .profile-card .profile-details {
   padding-top: 60px;
 }
+#teachers .profile-card-container .profile-card .profile-details h1 {
+  color: #b0b182;
+}
 #teachers .profile-card-container .profile-card .profile-details h2 {
   font-size: 1.2rem;
   margin: 10px 0 5px;

@@ -906,6 +906,9 @@ header {
             }
     
             .profile-details {
+                h1{
+                    color: $primary-bg-1;
+                }
                 padding-top: 60px; // Space to account for the image overlapping
         
                 h2 {
