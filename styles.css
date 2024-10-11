@@ -602,11 +602,11 @@ header nav .nav-links .menu-btn i {
   padding: 15px;
   border-top: 1px solid #7ca2a1;
 }
+#downloads .downloads-container .downloads .accordion .accordion-item .accordion-content ul, #downloads .downloads-container .sample-questions .accordion .accordion-item .accordion-content ul {
+  list-style: none;
+}
 #downloads .downloads-container .downloads .accordion .accordion-item .accordion-content.active, #downloads .downloads-container .sample-questions .accordion .accordion-item .accordion-content.active {
   display: block;
-}
-#downloads .downloads-container .downloads .accordion .accordion-item .accordion-content.active ul, #downloads .downloads-container .sample-questions .accordion .accordion-item .accordion-content.active ul {
-  list-style: none;
 }
 
 #about-contact {
@@ -878,7 +878,7 @@ header nav .nav-links .menu-btn i {
     font-size: 2rem;
   }
   #university-notifications .notification-title p {
-    font-size: 0.7rem;
+    font-size: 0.9rem;
   }
   #university-notifications .notification-list {
     margin: 0;
@@ -888,7 +888,7 @@ header nav .nav-links .menu-btn i {
     padding: 10px;
   }
   #university-notifications .notification-list .notification p {
-    font-size: 0.7rem;
+    font-size: 0.9rem;
     margin: 10px 0;
   }
   #university-notifications .notification-list .notification a {
@@ -902,7 +902,7 @@ header nav .nav-links .menu-btn i {
     font-size: 2rem;
   }
   #gallery .gallery-title p {
-    font-size: 0.7rem;
+    font-size: 0.9rem;
   }
   #gallery .gallery-container .image-card {
     height: 250px;
@@ -929,10 +929,10 @@ header nav .nav-links .menu-btn i {
     font-size: 2rem;
   }
   #events .left-right-container .left p {
-    font-size: 0.7rem;
+    font-size: 0.9rem;
   }
   #events .left-right-container .left button {
-    font-size: 0.7rem;
+    font-size: 0.9rem;
     margin-top: 20px;
     padding: 15px;
   }
@@ -943,7 +943,7 @@ header nav .nav-links .menu-btn i {
     align-content: flex-start;
   }
   #events .left-right-container .timeline-container {
-    font-size: 0.7rem;
+    font-size: 0.9rem;
   }
   #downloads .downloads-title {
     margin: 0;
@@ -952,7 +952,7 @@ header nav .nav-links .menu-btn i {
     font-size: 2rem;
   }
   #downloads .downloads-title p {
-    font-size: 0.7rem;
+    font-size: 0.9rem;
   }
   #downloads .downloads-container {
     margin: 0;
@@ -961,10 +961,10 @@ header nav .nav-links .menu-btn i {
     min-width: 100%;
   }
   #downloads .downloads-container .downloads .tabs .tab-button, #downloads .downloads-container .sample-questions .tabs .tab-button {
-    font-size: 0.7rem;
+    font-size: 0.9rem;
   }
   #downloads .downloads-container .downloads .accordion .accordion-item .accordion-tab, #downloads .downloads-container .downloads .accordion .accordion-item .accordion-content, #downloads .downloads-container .sample-questions .accordion .accordion-item .accordion-tab, #downloads .downloads-container .sample-questions .accordion .accordion-item .accordion-content {
-    font-size: 0.7rem;
+    font-size: 0.9rem;
   }
   #about-contact {
     flex-direction: column;
@@ -976,7 +976,7 @@ header nav .nav-links .menu-btn i {
     font-size: 2rem;
   }
   #about-contact .about-us p {
-    font-size: 0.7rem;
+    font-size: 0.9rem;
   }
   #about-contact .contact-us {
     margin: 0;
@@ -985,23 +985,23 @@ header nav .nav-links .menu-btn i {
     font-size: 2rem;
   }
   #about-contact .contact-us form .form-group label {
-    font-size: 0.7rem;
+    font-size: 0.9rem;
   }
   #about-contact .contact-us form .form-group input {
-    font-size: 0.7rem;
+    font-size: 0.9rem;
   }
   #about-contact .contact-us form .form-group textarea {
-    font-size: 0.7rem;
+    font-size: 0.9rem;
   }
   #about-contact .contact-us form button[type=submit] {
-    font-size: 0.7rem;
+    font-size: 0.9rem;
     padding: 10px 15px;
   }
   #footer {
     padding: 10px 0;
   }
   #footer p {
-    font-size: 0.7rem;
+    font-size: 0.9rem;
   }
   #teachers .teachers-title {
     padding: 40px 0 0 20px;

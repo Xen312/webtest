@@ -715,12 +715,12 @@ header {
                         padding: 15px;
                         border-top: 1px solid $primary-bg-2;
 
+                        ul {
+                            list-style: none;
+                        }
+
                         &.active {
                             display: block;
-
-                            ul {
-                                list-style: none;
-                            }
                         }
                     }
                 }
@@ -1045,7 +1045,7 @@ header {
             }
 
             p {
-                font-size: 0.7rem;
+                font-size: 0.9rem;
             }
         }
     
@@ -1057,7 +1057,7 @@ header {
                 padding: 10px;
 
                 p {
-                    font-size: 0.7rem;
+                    font-size: 0.9rem;
                     margin: 10px 0;
                 }
 
@@ -1078,7 +1078,7 @@ header {
             }
 
             p {
-                font-size: 0.7rem;
+                font-size: 0.9rem;
             }
         }
     
@@ -1113,11 +1113,11 @@ header {
                 }
 
                 p {
-                    font-size: 0.7rem;
+                    font-size: 0.9rem;
                 }
 
                 button {
-                    font-size: 0.7rem;
+                    font-size: 0.9rem;
                     margin-top: 20px;
                     padding: 15px;
                 }
@@ -1131,7 +1131,7 @@ header {
             }
 
             .timeline-container {
-                font-size: 0.7rem;
+                font-size: 0.9rem;
             }
         }
     }
@@ -1145,7 +1145,7 @@ header {
             }
 
             p {
-                font-size: 0.7rem;
+                font-size: 0.9rem;
             }
         }
     
@@ -1157,14 +1157,14 @@ header {
 
                 .tabs {
                     .tab-button {
-                        font-size: 0.7rem;
+                        font-size: 0.9rem;
                     }
                 }
 
                 .accordion {
                     .accordion-item {
                         .accordion-tab, .accordion-content {
-                            font-size: 0.7rem;
+                            font-size: 0.9rem;
                         }
                     }
                 }
@@ -1183,7 +1183,7 @@ header {
             }
 
             p {
-                font-size: 0.7rem;
+                font-size: 0.9rem;
             }
         }
     
@@ -1197,20 +1197,20 @@ header {
             form {
                 .form-group {
                     label {
-                        font-size: 0.7rem;
+                        font-size: 0.9rem;
                     }
 
                     input {
-                        font-size: 0.7rem;
+                        font-size: 0.9rem;
                     }
 
                     textarea {
-                        font-size: 0.7rem;
+                        font-size: 0.9rem;
                     }
                 }
 
                 button[type=submit] {
-                    font-size: 0.7rem;
+                    font-size: 0.9rem;
                     padding: 10px 15px;
                 }
             }
@@ -1221,7 +1221,7 @@ header {
         padding: 10px 0;
 
         p {
-            font-size: 0.7rem;
+            font-size: 0.9rem;
         }
     }
 
