@@ -717,6 +717,10 @@ header {
 
                         ul {
                             list-style: none;
+
+                            a {
+                                color: #b00000;
+                            }
                         }
 
                         &.active {

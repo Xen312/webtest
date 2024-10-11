@@ -605,6 +605,9 @@ header nav .nav-links .menu-btn i {
 #downloads .downloads-container .downloads .accordion .accordion-item .accordion-content ul, #downloads .downloads-container .sample-questions .accordion .accordion-item .accordion-content ul {
   list-style: none;
 }
+#downloads .downloads-container .downloads .accordion .accordion-item .accordion-content ul a, #downloads .downloads-container .sample-questions .accordion .accordion-item .accordion-content ul a {
+  color: #b00000;
+}
 #downloads .downloads-container .downloads .accordion .accordion-item .accordion-content.active, #downloads .downloads-container .sample-questions .accordion .accordion-item .accordion-content.active {
   display: block;
 }
