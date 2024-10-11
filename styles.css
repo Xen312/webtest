@@ -785,6 +785,9 @@ header nav .nav-links .menu-btn i {
   margin: 2px 0;
   color: #ccc;
 }
+#teachers .profile-card-container .profile-card .profile-details .details a {
+  color: #ccc;
+}
 #teachers .profile-card-container .profile-card .profile-details .stats {
   display: flex;
   justify-content: space-between;
@@ -1020,5 +1023,6 @@ header nav .nav-links .menu-btn i {
   }
   #teachers .profile-card-container .profile-card {
     width: 90%;
+    flex-direction: column;
   }
 }/*# sourceMappingURL=styles.css.map */

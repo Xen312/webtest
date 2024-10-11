@@ -925,6 +925,10 @@ header {
                     font-size: 0.9rem;
                     margin: 2px 0;
                     color: #ccc;
+
+                    a {
+                        color: #ccc;
+                    }
                 }
         
                 .stats {
@@ -1246,6 +1250,7 @@ header {
 
             .profile-card {
                 width: 90%;
+                flex-direction: column;
             }
         }
     }
