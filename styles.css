@@ -722,95 +722,6 @@ header nav .nav-links .menu-btn i {
   margin: 0;
 }
 
-#teachers {
-  height: auto;
-  background: #b0b182;
-}
-#teachers .teachers-title {
-  padding: 40px 100px;
-}
-#teachers .teachers-title h1 {
-  font-size: 3.125rem;
-  color: #fbf6e0;
-  text-shadow: -5px 3px 4px rgba(0, 0, 0, 0.33);
-}
-#teachers .profile-card-container {
-  margin-left: 100px;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 50px;
-  padding: 20px;
-  justify-content: left;
-}
-#teachers .profile-card-container .profile-card {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  align-content: space-between;
-  width: 300px;
-  background: linear-gradient(to bottom, #fbf6e0 20%, #04385d 0%);
-  border-radius: 20px;
-  color: #ffffff;
-  overflow: hidden;
-  text-align: left;
-  padding: 20px;
-}
-#teachers .profile-card-container .profile-card .profile-header {
-  position: relative;
-  height: 120px;
-}
-#teachers .profile-card-container .profile-card .profile-header .profile-image {
-  width: 170px;
-  height: 170px;
-  border-radius: 50%;
-  border: 5px solid #04385d;
-  position: absolute;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  top: 66%;
-}
-#teachers .profile-card-container .profile-card .profile-details {
-  padding-top: 60px;
-}
-#teachers .profile-card-container .profile-card .profile-details h1 {
-  color: #b0b182;
-}
-#teachers .profile-card-container .profile-card .profile-details h2 {
-  font-size: 1.2rem;
-  margin: 10px 0 5px;
-  font-weight: 700;
-}
-#teachers .profile-card-container .profile-card .profile-details .details {
-  font-size: 0.9rem;
-  margin: 2px 0;
-  color: #ccc;
-}
-#teachers .profile-card-container .profile-card .profile-details .details a {
-  color: #ccc;
-}
-#teachers .profile-card-container .profile-card .profile-details .stats {
-  display: flex;
-  justify-content: space-between;
-  margin-top: 15px;
-  text-align: center;
-}
-#teachers .profile-card-container .profile-card .profile-details .stats .stat-item {
-  background-color: rgba(255, 255, 255, 0.1);
-  padding: 10px;
-  border-radius: 5px;
-  width: 30%;
-}
-#teachers .profile-card-container .profile-card .profile-details .stats .stat-item h3 {
-  font-size: 1.8rem;
-  margin: 0;
-  color: #b0b182;
-}
-#teachers .profile-card-container .profile-card .profile-details .stats .stat-item p {
-  font-size: 0.8rem;
-  margin: 0;
-  color: #ccc;
-}
-
 @media only screen and (max-width: 480px) {
   body {
     overflow-x: hidden;
@@ -1008,21 +919,5 @@ header nav .nav-links .menu-btn i {
   }
   #footer p {
     font-size: 0.9rem;
-  }
-  #teachers .teachers-title {
-    padding: 40px 0 0 20px;
-    margin-bottom: 20px;
-  }
-  #teachers .teachers-title h1 {
-    font-size: 2rem;
-  }
-  #teachers .profile-card-container {
-    margin: 0;
-    justify-items: center;
-    padding: 0;
-  }
-  #teachers .profile-card-container .profile-card {
-    width: 90%;
-    flex-direction: column;
   }
 }/*# sourceMappingURL=styles.css.map */

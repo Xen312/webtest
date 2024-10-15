@@ -858,109 +858,6 @@ header {
     }
 }
 
-#teachers {
-    height: auto;
-    background: $primary-bg-1;
-
-    .teachers-title {
-        padding: 40px 100px;
-
-        h1 {
-            font-size: $title-font-size;
-            color: $title-color;
-            text-shadow: $text-shadow;
-        }
-    }
-
-    .profile-card-container {
-        margin-left: 100px;
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-        gap: 50px;
-        padding: 20px;
-        justify-content: left;
-    
-        .profile-card {
-            display: flex;
-            justify-content: center;
-            flex-wrap: wrap;
-            align-content: space-between;
-            width: 300px;
-            background: linear-gradient(to bottom, $title-color 20%, $profile-bg 0%);
-            border-radius: 20px;
-            color: #ffffff;
-            overflow: hidden;
-            text-align: left;
-            padding: 20px;
-    
-            .profile-header {
-                position: relative;
-                height: 120px;
-    
-                .profile-image {
-                    width: 170px;
-                    height: 170px;
-                    border-radius: 50%;
-                    border: 5px solid $profile-bg;
-                    position: absolute;
-                    left: 50%;
-                    transform: translate(-50%, -50%);
-                    top: 66%;
-                }
-            }
-    
-            .profile-details {
-                h1{
-                    color: $primary-bg-1;
-                }
-                padding-top: 60px; // Space to account for the image overlapping
-        
-                h2 {
-                    font-size: 1.2rem;
-                    margin: 10px 0 5px;
-                    font-weight: 700;
-                }
-        
-                .details {
-                    font-size: 0.9rem;
-                    margin: 2px 0;
-                    color: #ccc;
-
-                    a {
-                        color: #ccc;
-                    }
-                }
-        
-                .stats {
-                    display: flex;
-                    justify-content: space-between;
-                    margin-top: 15px;
-                    text-align: center;
-        
-                    .stat-item {
-                        background-color: rgba(255, 255, 255, 0.1); // Slight contrast
-                        padding: 10px;
-                        border-radius: 5px;
-                        width: 30%;
-        
-                        h3 {
-                            font-size: 1.8rem;
-                            margin: 0;
-                            color: $primary-bg-1; // Adjust color as needed
-                        }
-        
-                        p {
-                            font-size: 0.8rem;
-                            margin: 0;
-                            color: #ccc;
-                        }
-                    }
-                }
-            }
-        }
-    }
-}
-
 @media only screen and (max-width: 480px) {
     body {
         overflow-x: hidden;
@@ -1230,28 +1127,6 @@ header {
 
         p {
             font-size: 0.9rem;
-        }
-    }
-
-    #teachers {
-        .teachers-title {
-            padding: 40px 0 0 20px;
-            margin-bottom: 20px;
-
-            h1 {
-                font-size: 2rem;
-            }
-        }
-
-        .profile-card-container {
-            margin: 0;
-            justify-items: center;
-            padding: 0;
-
-            .profile-card {
-                width: 90%;
-                flex-direction: column;
-            }
         }
     }
 }

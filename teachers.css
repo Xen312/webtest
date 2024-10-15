@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Unicase:wght@300;400;500;600;700&family=Jost:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h4 {
+  font-family: "Cormorant Unicase";
+  font-weight: 700;
+}
+
+p {
+  font-family: "Jost";
+}
+
+#teachers {
+  background: #b0b182;
+}
+#teachers .teachers-title {
+  font-size: 3.125rem;
+  margin-left: 20px;
+}
+#teachers .profiles-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 2 columns of equal width */
+  gap: 20px; /* Spacing between grid items */
+  padding: 20px;
+}
+@media screen and (max-width: 768px) {
+  #teachers .profiles-container {
+    grid-template-columns: 1fr; /* 1 column on smaller screens */
+  }
+}
+#teachers .profiles-container .profile {
+  background-color: #c1d5c9;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  height: 450px;
+}
+#teachers .profiles-container .profile .image-container {
+  flex: 0 0 250px;
+  height: 100%;
+  background-color: #eaeaea;
+  border-radius: 10px;
+  overflow: hidden;
+}
+#teachers .profiles-container .profile .image-container img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+#teachers .profiles-container .profile .profile-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  width: 100%;
+}
+#teachers .profiles-container .profile .profile-info h1 {
+  color: #04385d;
+  font-weight: 900;
+  margin-bottom: 20px;
+}
+#teachers .profiles-container .profile .profile-info h2 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 5px;
+}
+#teachers .profiles-container .profile .profile-info p {
+  font-size: 1.125rem;
+  font-family: "Jost";
+  color: #555;
+  margin: 10px 0;
+}
+#teachers .profiles-container .profile .profile-info p a {
+  text-decoration: none;
+  color: #2196f3;
+}
+#teachers .profiles-container .profile .profile-info ul {
+  list-style-type: none;
+  margin: 15px 0 0 0;
+  padding: 0;
+  font-family: "Jost";
+}
+#teachers .profiles-container .profile .profile-info ul li {
+  background-color: #7ca2a1;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+}
+#teachers .profiles-container .profile .profile-info ul li:last-child {
+  margin-bottom: 0;
+}
+#teachers .profiles-container .profile .profile-info ul li span {
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 480px) {
+  #teachers .teachers-title h1 {
+    font-size: 2rem;
+  }
+  #teachers .profiles-container .profile {
+    height: auto;
+    flex-direction: column;
+  }
+  #teachers .profiles-container .profile .profile-info h1 {
+    margin-bottom: 10px;
+  }
+  #teachers .profiles-container .profile .profile-info p {
+    font-size: 1rem;
+    margin: 5px 0;
+    word-break: break-word;
+    overflow-wrap: break-word;
+    white-space: normal;
+  }
+  #teachers .profiles-container .profile .profile-info ul {
+    margin: 0;
+  }
+  #teachers .profiles-container .profile .profile-info ul li {
+    margin: 5px 0;
+    padding: 8px;
+    font-size: 1rem;
+  }
+}/*# sourceMappingURL=teachers.css.map */
