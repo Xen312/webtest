@@ -858,7 +858,7 @@ header {
     }
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 490px) {
     body {
         overflow-x: hidden;
     }
@@ -910,12 +910,12 @@ header {
 
     #home {
         background: linear-gradient(0deg, $primary-bg-2 55%, $primary-bg-3 45%);
-        height: 100svh;
+        height: 100dvh;
     
         .left-right-container {
             display: grid;
             justify-items: center;
-            align-content: space-between;
+            align-content: center;
     
             .left {
                 margin-bottom: 140px;

@@ -722,7 +722,7 @@ header nav .nav-links .menu-btn i {
   margin: 0;
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 490px) {
   body {
     overflow-x: hidden;
   }
@@ -762,12 +762,12 @@ header nav .nav-links .menu-btn i {
   }
   #home {
     background: linear-gradient(0deg, #7ca2a1 55%, #c1d5c9 45%);
-    height: 100svh;
+    height: 100dvh;
   }
   #home .left-right-container {
     display: grid;
     justify-items: center;
-    align-content: space-between;
+    align-content: center;
   }
   #home .left-right-container .left {
     margin-bottom: 140px;
