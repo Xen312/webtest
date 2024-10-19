@@ -761,7 +761,7 @@ header nav .nav-links .menu-btn i {
     font-size: 1.25rem;
   }
   #home {
-    background: linear-gradient(0deg, #7ca2a1 55%, #c1d5c9 45%);
+    background: linear-gradient(0deg, #7ca2a1 50%, #c1d5c9 50%);
     height: 100dvh;
   }
   #home .left-right-container {
