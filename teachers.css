@@ -76,13 +76,11 @@ p {
 }
 #teachers .profiles-container .profile .profile-info h2 {
   font-size: 24px;
-  color: #333;
   margin-bottom: 5px;
 }
 #teachers .profiles-container .profile .profile-info p {
   font-size: 1.125rem;
   font-family: "Jost";
-  color: #555;
   margin: 10px 0;
 }
 #teachers .profiles-container .profile .profile-info p a {
