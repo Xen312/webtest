@@ -781,6 +781,9 @@ header nav .nav-links .menu-btn i {
   #home .left-right-container .right {
     width: 100%;
   }
+  #home .left-right-container .right img .logo1, #home .left-right-container .right .logo2, #home .left-right-container .right .logo3, #home .left-right-container .right .logo4, #home .left-right-container .right .logo5 {
+    width: 100%;
+  }
   #home .left-right-container .scroll-text {
     width: 100%;
   }
