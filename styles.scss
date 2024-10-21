@@ -174,7 +174,7 @@ header {
         }
 
         .left {
-            padding: 70px 100px 0 50px;
+            padding: 70px 0 0 50px;
             opacity: 0;
             transform: translateX(-100%);
             transition: opacity 0.8s ease, transform 0.8s ease;
@@ -1390,7 +1390,7 @@ header {
     }
 }
 
-@media only screen and (min-width: 792) and (max-width: 1040px) {
+@media only screen and (min-width: 792px) and (max-width: 1040px) {
     header {
         justify-content: center;
         height: 80px;
