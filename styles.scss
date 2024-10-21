@@ -1158,7 +1158,7 @@ header {
                 width: auto;
     
                 h1 {
-                    font-size: 1.7rem;
+                    font-size: 3rem;
                 }
             }
     
@@ -1186,11 +1186,11 @@ header {
             margin: 0;
     
             h1 {
-                font-size: 2rem;
+                font-size: 3rem;
             }
 
             p {
-                font-size: 0.9rem;
+                font-size: 1.5rem;
             }
         }
     
@@ -1202,12 +1202,12 @@ header {
                 padding: 10px;
 
                 p {
-                    font-size: 0.9rem;
+                    font-size: 1.5rem;
                     margin: 10px 0;
                 }
 
                 a {
-                    font-size: 0.9rem;
+                    font-size: 1.5rem;
                 }
             }
         }
@@ -1219,11 +1219,11 @@ header {
             padding: 0;
             
             h1 {
-                font-size: 2rem;
+                font-size: 3rem;
             }
 
             p {
-                font-size: 0.9rem;
+                font-size: 1.5rem;
             }
         }
     
@@ -1238,7 +1238,7 @@ header {
                 }
 
                 button {
-                    font-size: 0.8125rem;
+                    font-size: 1.5rem;
                     padding: 10px 5px;
                 }
             }
@@ -1258,15 +1258,15 @@ header {
                 margin: 40px 0;
     
                 h1 {
-                    font-size: 2rem;
+                    font-size: 3rem;
                 }
 
                 p {
-                    font-size: 0.9rem;
+                    font-size: 1.5rem;
                 }
 
                 button {
-                    font-size: 0.9rem;
+                    font-size: 1.5rem;
                     margin-top: 20px;
                     padding: 15px;
                 }
@@ -1280,7 +1280,7 @@ header {
             }
 
             .timeline-container {
-                font-size: 0.9rem;
+                font-size: 1.5rem;
 
                 .timeline {
                     .timeline-item {
@@ -1304,11 +1304,11 @@ header {
             margin: 0;
 
             h1 {
-                font-size: 2rem;
+                font-size: 3rem;
             }
 
             p {
-                font-size: 0.9rem;
+                font-size: 1.5rem;
             }
         }
     
@@ -1320,7 +1320,7 @@ header {
 
                 .tabs {
                     .tab-button {
-                        font-size: 0.9rem;
+                        font-size: 1.5rem;
                     }
                 }
 
@@ -1328,7 +1328,7 @@ header {
                     max-width: 100%;
                     .accordion-item {
                         .accordion-tab, .accordion-content {
-                            font-size: 0.9rem;
+                            font-size: 1.5rem;
                         }
                     }
                 }
@@ -1343,11 +1343,11 @@ header {
             margin: 0;
 
             h1 {
-                font-size: 2rem;
+                font-size: 3rem;
             }
 
             p {
-                font-size: 0.9rem;
+                font-size: 1.5rem;
             }
         }
     
@@ -1355,26 +1355,30 @@ header {
             margin: 0;
 
             h1 {
-                font-size: 2rem;
+                font-size: 3rem;
             }
 
             form {
                 .form-group {
                     label {
-                        font-size: 0.9rem;
+                        font-size: 1.5rem;
                     }
 
                     input {
-                        font-size: 0.9rem;
+                        font-size: 1.5rem;
+                        border-radius: 13px;
+                        padding: 15px;
                     }
 
                     textarea {
-                        font-size: 0.9rem;
+                        font-size: 1.5rem;
+                        border-radius: 13px;
+                        padding: 15px;
                     }
                 }
 
                 button[type=submit] {
-                    font-size: 0.9rem;
+                    font-size: 1.5rem;
                     padding: 10px 15px;
                 }
             }
@@ -1385,7 +1389,7 @@ header {
         padding: 10px 0;
 
         p {
-            font-size: 0.9rem;
+            font-size: 1.5rem;
         }
     }
 }
@@ -1408,7 +1412,7 @@ header {
                 li {
                     padding:0 5px;
                     
-                    font-size: 1.1rem;
+                    font-size: 1.7rem;
                 }
             }
         }
@@ -1431,7 +1435,7 @@ header {
                 width: auto;
     
                 h1 {
-                    font-size: 1.7rem;
+                    font-size: 3rem;
                 }
             }
     
@@ -1459,11 +1463,11 @@ header {
             margin: 0;
     
             h1 {
-                font-size: 2rem;
+                font-size: 5rem;
             }
 
             p {
-                font-size: 0.9rem;
+                font-size: 2rem;
             }
         }
     
@@ -1475,12 +1479,12 @@ header {
                 padding: 10px;
 
                 p {
-                    font-size: 0.9rem;
+                    font-size: 2rem;
                     margin: 10px 0;
                 }
 
                 a {
-                    font-size: 0.9rem;
+                    font-size: 2rem;
                 }
             }
         }
@@ -1492,11 +1496,11 @@ header {
             padding: 0;
             
             h1 {
-                font-size: 2rem;
+                font-size: 5rem;
             }
 
             p {
-                font-size: 0.9rem;
+                font-size: 2rem;
             }
         }
     
@@ -1511,7 +1515,7 @@ header {
                 }
 
                 button {
-                    font-size: 0.8125rem;
+                    font-size: 2rem;
                     padding: 10px 5px;
                 }
             }
@@ -1531,15 +1535,15 @@ header {
                 margin: 40px 0;
     
                 h1 {
-                    font-size: 2rem;
+                    font-size: 5rem;
                 }
 
                 p {
-                    font-size: 0.9rem;
+                    font-size: 2rem;
                 }
 
                 button {
-                    font-size: 0.9rem;
+                    font-size: 1.7rem;
                     margin-top: 20px;
                     padding: 15px;
                 }
@@ -1553,7 +1557,7 @@ header {
             }
 
             .timeline-container {
-                font-size: 0.9rem;
+                font-size: 1.7rem;
 
                 .timeline {
                     .timeline-item {
@@ -1577,11 +1581,11 @@ header {
             margin: 0;
 
             h1 {
-                font-size: 2rem;
+                font-size: 5rem;
             }
 
             p {
-                font-size: 0.9rem;
+                font-size: 2rem;
             }
         }
     
@@ -1591,9 +1595,13 @@ header {
             .downloads, .sample-questions {
                 min-width: 100%;
 
+                h2 {
+                    font-size: 2rem;
+                }
+
                 .tabs {
                     .tab-button {
-                        font-size: 0.9rem;
+                        font-size: 1.7rem;
                     }
                 }
 
@@ -1601,7 +1609,7 @@ header {
                     max-width: 100%;
                     .accordion-item {
                         .accordion-tab, .accordion-content {
-                            font-size: 0.9rem;
+                            font-size: 1.7rem;
                         }
                     }
                 }
@@ -1616,11 +1624,11 @@ header {
             margin: 0;
 
             h1 {
-                font-size: 2rem;
+                font-size: 5rem;
             }
 
             p {
-                font-size: 0.9rem;
+                font-size: 2rem;
             }
         }
     
@@ -1634,20 +1642,24 @@ header {
             form {
                 .form-group {
                     label {
-                        font-size: 0.9rem;
+                        font-size: 1.7rem;
                     }
 
                     input {
-                        font-size: 0.9rem;
+                        font-size: 1.7rem;
+                        border-radius: 15px;
+                        padding: 20px;
                     }
 
                     textarea {
-                        font-size: 0.9rem;
+                        font-size: 1.7rem;
+                        border-radius: 15px;
+                        padding: 20px;
                     }
                 }
 
                 button[type=submit] {
-                    font-size: 0.9rem;
+                    font-size: 1.7rem;
                     padding: 10px 15px;
                 }
             }
@@ -1658,7 +1670,7 @@ header {
         padding: 10px 0;
 
         p {
-            font-size: 0.9rem;
+            font-size: 1.7rem;
         }
     }
 }
