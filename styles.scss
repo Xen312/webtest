@@ -78,13 +78,13 @@ header {
 
     .title {
         font-size: 2.7ch;
-        margin-left: 100px;
+        margin-left: 50px;
         word-wrap: break-word;
         white-space: normal;
     }
 
     nav {
-        margin-right: 100px;
+        margin-right: 50px;
         display: flex;
         align-items: center;
 
@@ -174,7 +174,7 @@ header {
         }
 
         .left {
-            padding: 70px 100px 0 100px;
+            padding: 70px 100px 0 50px;
             opacity: 0;
             transform: translateX(-100%);
             transition: opacity 0.8s ease, transform 0.8s ease;
@@ -372,7 +372,7 @@ header {
     background: $primary-bg-1;
 
     .notification-title {
-        margin-left: 100px;
+        margin-left: 50px;
         padding-top: 20px;
 
         h1 {
@@ -394,8 +394,7 @@ header {
         justify-content: flex-start;
         gap: 40px;
         margin-top: 20px;
-        margin-right: 100px;
-        margin-left: 100px;
+        margin: auto 50px;
 
         .notification {
             flex: 1;
@@ -434,7 +433,7 @@ header {
     transform: translateY(0);
 
     .gallery-title {
-        margin-left: 100px;
+        margin-left: 50px;
         padding-top: 20px;
 
         h1 {
@@ -526,7 +525,7 @@ header {
         }
 
         .left {
-            padding: 70px 100px 0 100px;
+            padding: 70px 100px 0 50px;
             flex-direction: column;
             align-items: flex-start;
 
@@ -626,7 +625,7 @@ header {
     }
 
     .downloads-title {
-        margin: 0 100px;
+        margin: 0 50px;
 
         h1 {
             font-size: $title-font-size;
@@ -641,7 +640,7 @@ header {
     }
 
     .downloads-container {
-        margin: 0 100px;
+        margin: 0 50px;
         display: flex;
         justify-content: space-between;
         flex-wrap: wrap;
@@ -759,11 +758,11 @@ header {
     }
 
     .about-us {
-        margin-left: 100px;
+        margin-left: 50px;
     }
 
     .contact-us {
-        margin-right: 100px;
+        margin-right: 50px;
     }
 
     .about-us, .contact-us {

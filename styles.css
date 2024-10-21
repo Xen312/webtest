@@ -56,12 +56,12 @@ header.fade-in {
 }
 header .title {
   font-size: 2.7ch;
-  margin-left: 100px;
+  margin-left: 50px;
   word-wrap: break-word;
   white-space: normal;
 }
 header nav {
-  margin-right: 100px;
+  margin-right: 50px;
   display: flex;
   align-items: center;
 }
@@ -135,7 +135,7 @@ header nav .nav-links .menu-btn i {
   justify-content: center;
 }
 #home .left-right-container .left {
-  padding: 70px 100px 0 100px;
+  padding: 70px 100px 0 50px;
   opacity: 0;
   transform: translateX(-100%);
   transition: opacity 0.8s ease, transform 0.8s ease;
@@ -300,7 +300,7 @@ header nav .nav-links .menu-btn i {
   background: #b0b182;
 }
 #university-notifications .notification-title {
-  margin-left: 100px;
+  margin-left: 50px;
   padding-top: 20px;
 }
 #university-notifications .notification-title h1 {
@@ -319,8 +319,7 @@ header nav .nav-links .menu-btn i {
   justify-content: flex-start;
   gap: 40px;
   margin-top: 20px;
-  margin-right: 100px;
-  margin-left: 100px;
+  margin: auto 50px;
 }
 #university-notifications .notification-list .notification {
   flex: 1;
@@ -355,7 +354,7 @@ header nav .nav-links .menu-btn i {
   transform: translateY(0);
 }
 #faculty .gallery-title {
-  margin-left: 100px;
+  margin-left: 50px;
   padding-top: 20px;
 }
 #faculty .gallery-title h1 {
@@ -439,7 +438,7 @@ header nav .nav-links .menu-btn i {
   justify-content: center;
 }
 #events .left-right-container .left {
-  padding: 70px 100px 0 100px;
+  padding: 70px 100px 0 50px;
   flex-direction: column;
   align-items: flex-start;
 }
@@ -523,7 +522,7 @@ header nav .nav-links .menu-btn i {
   display: none;
 }
 #downloads .downloads-title {
-  margin: 0 100px;
+  margin: 0 50px;
 }
 #downloads .downloads-title h1 {
   font-size: 3.125rem;
@@ -535,7 +534,7 @@ header nav .nav-links .menu-btn i {
   margin-bottom: 40px;
 }
 #downloads .downloads-container {
-  margin: 0 100px;
+  margin: 0 50px;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -634,10 +633,10 @@ header nav .nav-links .menu-btn i {
   text-shadow: -5px 3px 4px rgba(0, 0, 0, 0.33);
 }
 #about-contact .about-us {
-  margin-left: 100px;
+  margin-left: 50px;
 }
 #about-contact .contact-us {
-  margin-right: 100px;
+  margin-right: 50px;
 }
 #about-contact .about-us, #about-contact .contact-us {
   flex: 1;
