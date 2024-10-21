@@ -35,11 +35,6 @@ p {
   gap: 20px; /* Spacing between grid items */
   padding: 20px;
 }
-@media screen and (max-width: 768px) {
-  #teachers .profiles-container {
-    grid-template-columns: 1fr; /* 1 column on smaller screens */
-  }
-}
 #teachers .profiles-container .profile {
   background-color: #c1d5c9;
   border-radius: 10px;
@@ -71,8 +66,9 @@ p {
 }
 #teachers .profiles-container .profile .profile-info h1 {
   color: #04385d;
+  font-size: 2.125rem;
   font-weight: 900;
-  margin-bottom: 20px;
+  margin-bottom: 5px;
 }
 #teachers .profiles-container .profile .profile-info h2 {
   font-size: 24px;
@@ -107,7 +103,37 @@ p {
   font-weight: bold;
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 491px) {
+  #teachers .teachers-title h1 {
+    font-size: 2rem;
+  }
+  #teachers .profiles-container {
+    grid-template-columns: 1fr;
+  }
+  #teachers .profiles-container .profile {
+    height: auto;
+    flex-direction: column;
+  }
+  #teachers .profiles-container .profile .profile-info h1 {
+    margin-bottom: 10px;
+  }
+  #teachers .profiles-container .profile .profile-info p {
+    font-size: 1rem;
+    margin: 5px 0;
+    word-break: break-word;
+    overflow-wrap: break-word;
+    white-space: normal;
+  }
+  #teachers .profiles-container .profile .profile-info ul {
+    margin: 0;
+  }
+  #teachers .profiles-container .profile .profile-info ul li {
+    margin: 5px 0;
+    padding: 8px;
+    font-size: 1rem;
+  }
+}
+@media only screen and (min-width: 491px) and (max-width: 791px) {
   #teachers .teachers-title h1 {
     font-size: 2rem;
   }

@@ -867,16 +867,19 @@ header {
     }
 }
 
-@media only screen and (max-width: 490px) {
+@media only screen and (max-width: 491px) {
     body {
         overflow-x: hidden;
     }
 
     header {
+        height: 50px;
+
         .title {
+            display: block;
             margin-left: 0;
             width: 100%;
-            font-size: 1.6rem;
+            font-size: 1.3rem;
             text-align: center;
         }
 
@@ -1114,9 +1117,10 @@ header {
     }
 }
 
-@media only screen and (max-width: 791px) {
+@media only screen and (min-width: 491px) and (max-width: 791px) {
     header {
         justify-content: center;
+        height: 60px;
 
         .title {
             display: none;
@@ -1126,26 +1130,262 @@ header {
             margin: 0;
 
             ul {
+                width: 100vw;
+
                 li {
-                    padding: 0 20px;
+                    padding:0 5px;
+                    
+                    font-size: 1.1rem;
                 }
             }
         }
     }
 
     #home {
+        background: linear-gradient(0deg, $primary-bg-2 50%, $primary-bg-3 50%);
+        height: 100dvh;
+    
         .left-right-container {
+            display: grid;
+            justify-items: center;
+            align-content: center;
+            justify-content: center;
+    
+            .left {
+                margin-bottom: 250px;
+                grid-row: 2;
+                padding: 0;
+                width: auto;
+    
+                h1 {
+                    font-size: 1.7rem;
+                }
+            }
+    
+            .right {
+                width: 100%;
+                position: relative;
+                top: 0;
+
+                img .logo1, .logo2, .logo3, .logo4, .logo5 {
+                    width: 100%;
+                }
+            }
+    
             .scroll-text {
                 width: 100%;
             }
+        }
+    }
 
-            .left {
-                padding: 70px 0 0 35px;
+    #university-notifications {
+        height: 100vh;
+        padding: 40px 20px;
+    
+        .notification-title {
+            margin: 0;
+    
+            h1 {
+                font-size: 2rem;
+            }
 
-                h1 {
-                    font-size: 2.125rem;
+            p {
+                font-size: 0.9rem;
+            }
+        }
+    
+        .notification-list {
+            margin: 0;
+    
+            .notification {
+                min-width: 100%;
+                padding: 10px;
+
+                p {
+                    font-size: 0.9rem;
+                    margin: 10px 0;
+                }
+
+                a {
+                    font-size: 0.9rem;
                 }
             }
+        }
+    }
+
+    #faculty {
+        .gallery-title {
+            margin: 0;
+            padding: 0;
+            
+            h1 {
+                font-size: 2rem;
+            }
+
+            p {
+                font-size: 0.9rem;
+            }
+        }
+    
+        .gallery-container {
+            .image-card {
+                height: 250px;
+                min-width: 40%;
+                max-width: 50%;
+
+                img {
+                    width: 56%;
+                }
+
+                button {
+                    font-size: 0.8125rem;
+                    padding: 10px 5px;
+                }
+            }
+        }
+    }
+    
+    #events {
+        height: 100%;
+
+        .left-right-container {
+            flex-direction: column;
+            height: calc(100vh - 100px);
+    
+            .left {
+                width: 100%;
+                padding: 0 20px;
+                margin: 40px 0;
+    
+                h1 {
+                    font-size: 2rem;
+                }
+
+                p {
+                    font-size: 0.9rem;
+                }
+
+                button {
+                    font-size: 0.9rem;
+                    margin-top: 20px;
+                    padding: 15px;
+                }
+            }
+    
+            .right {
+                height: 90%;
+                width: 100%;
+                flex-wrap: wrap;
+                align-content: flex-start;
+            }
+
+            .timeline-container {
+                font-size: 0.9rem;
+
+                .timeline {
+                    .timeline-item {
+                        .timeline-content {
+                            left: 16%;
+                        }
+                    }
+
+                    .timeline-item:nth-child(odd) {
+                        .timeline-content {
+                            left: -6%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    
+    #downloads {
+        .downloads-title {
+            margin: 0;
+
+            h1 {
+                font-size: 2rem;
+            }
+
+            p {
+                font-size: 0.9rem;
+            }
+        }
+    
+        .downloads-container {
+            margin: 0;
+    
+            .downloads, .sample-questions {
+                min-width: 100%;
+
+                .tabs {
+                    .tab-button {
+                        font-size: 0.9rem;
+                    }
+                }
+
+                .accordion {
+                    max-width: 100%;
+                    .accordion-item {
+                        .accordion-tab, .accordion-content {
+                            font-size: 0.9rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    
+    #about-contact {
+        flex-direction: column;
+    
+        .about-us {
+            margin: 0;
+
+            h1 {
+                font-size: 2rem;
+            }
+
+            p {
+                font-size: 0.9rem;
+            }
+        }
+    
+        .contact-us {
+            margin: 0;
+
+            h1 {
+                font-size: 2rem;
+            }
+
+            form {
+                .form-group {
+                    label {
+                        font-size: 0.9rem;
+                    }
+
+                    input {
+                        font-size: 0.9rem;
+                    }
+
+                    textarea {
+                        font-size: 0.9rem;
+                    }
+                }
+
+                button[type=submit] {
+                    font-size: 0.9rem;
+                    padding: 10px 15px;
+                }
+            }
+        }
+    }
+
+    #footer {
+        padding: 10px 0;
+
+        p {
+            font-size: 0.9rem;
         }
     }
 }

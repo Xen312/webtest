@@ -728,14 +728,18 @@ header nav .nav-links .menu-btn i {
   margin: 0;
 }
 
-@media only screen and (max-width: 490px) {
+@media only screen and (max-width: 491px) {
   body {
     overflow-x: hidden;
   }
+  header {
+    height: 50px;
+  }
   header .title {
+    display: block;
     margin-left: 0;
     width: 100%;
-    font-size: 1.6rem;
+    font-size: 1.3rem;
     text-align: center;
   }
   header nav {
@@ -907,9 +911,10 @@ header nav .nav-links .menu-btn i {
     font-size: 0.9rem;
   }
 }
-@media only screen and (max-width: 791px) {
+@media only screen and (min-width: 491px) and (max-width: 791px) {
   header {
     justify-content: center;
+    height: 60px;
   }
   header .title {
     display: none;
@@ -917,16 +922,189 @@ header nav .nav-links .menu-btn i {
   header nav {
     margin: 0;
   }
+  header nav ul {
+    width: 100vw;
+  }
   header nav ul li {
-    padding: 0 20px;
+    padding: 0 5px;
+    font-size: 1.1rem;
+  }
+  #home {
+    background: linear-gradient(0deg, #7ca2a1 50%, #c1d5c9 50%);
+    height: 100dvh;
+  }
+  #home .left-right-container {
+    display: grid;
+    justify-items: center;
+    align-content: center;
+    justify-content: center;
+  }
+  #home .left-right-container .left {
+    margin-bottom: 250px;
+    grid-row: 2;
+    padding: 0;
+    width: auto;
+  }
+  #home .left-right-container .left h1 {
+    font-size: 1.7rem;
+  }
+  #home .left-right-container .right {
+    width: 100%;
+    position: relative;
+    top: 0;
+  }
+  #home .left-right-container .right img .logo1, #home .left-right-container .right .logo2, #home .left-right-container .right .logo3, #home .left-right-container .right .logo4, #home .left-right-container .right .logo5 {
+    width: 100%;
   }
   #home .left-right-container .scroll-text {
     width: 100%;
   }
-  #home .left-right-container .left {
-    padding: 70px 0 0 35px;
+  #university-notifications {
+    height: 100vh;
+    padding: 40px 20px;
   }
-  #home .left-right-container .left h1 {
-    font-size: 2.125rem;
+  #university-notifications .notification-title {
+    margin: 0;
+  }
+  #university-notifications .notification-title h1 {
+    font-size: 2rem;
+  }
+  #university-notifications .notification-title p {
+    font-size: 0.9rem;
+  }
+  #university-notifications .notification-list {
+    margin: 0;
+  }
+  #university-notifications .notification-list .notification {
+    min-width: 100%;
+    padding: 10px;
+  }
+  #university-notifications .notification-list .notification p {
+    font-size: 0.9rem;
+    margin: 10px 0;
+  }
+  #university-notifications .notification-list .notification a {
+    font-size: 0.9rem;
+  }
+  #faculty .gallery-title {
+    margin: 0;
+    padding: 0;
+  }
+  #faculty .gallery-title h1 {
+    font-size: 2rem;
+  }
+  #faculty .gallery-title p {
+    font-size: 0.9rem;
+  }
+  #faculty .gallery-container .image-card {
+    height: 250px;
+    min-width: 40%;
+    max-width: 50%;
+  }
+  #faculty .gallery-container .image-card img {
+    width: 56%;
+  }
+  #faculty .gallery-container .image-card button {
+    font-size: 0.8125rem;
+    padding: 10px 5px;
+  }
+  #events {
+    height: 100%;
+  }
+  #events .left-right-container {
+    flex-direction: column;
+    height: calc(100vh - 100px);
+  }
+  #events .left-right-container .left {
+    width: 100%;
+    padding: 0 20px;
+    margin: 40px 0;
+  }
+  #events .left-right-container .left h1 {
+    font-size: 2rem;
+  }
+  #events .left-right-container .left p {
+    font-size: 0.9rem;
+  }
+  #events .left-right-container .left button {
+    font-size: 0.9rem;
+    margin-top: 20px;
+    padding: 15px;
+  }
+  #events .left-right-container .right {
+    height: 90%;
+    width: 100%;
+    flex-wrap: wrap;
+    align-content: flex-start;
+  }
+  #events .left-right-container .timeline-container {
+    font-size: 0.9rem;
+  }
+  #events .left-right-container .timeline-container .timeline .timeline-item .timeline-content {
+    left: 16%;
+  }
+  #events .left-right-container .timeline-container .timeline .timeline-item:nth-child(odd) .timeline-content {
+    left: -6%;
+  }
+  #downloads .downloads-title {
+    margin: 0;
+  }
+  #downloads .downloads-title h1 {
+    font-size: 2rem;
+  }
+  #downloads .downloads-title p {
+    font-size: 0.9rem;
+  }
+  #downloads .downloads-container {
+    margin: 0;
+  }
+  #downloads .downloads-container .downloads, #downloads .downloads-container .sample-questions {
+    min-width: 100%;
+  }
+  #downloads .downloads-container .downloads .tabs .tab-button, #downloads .downloads-container .sample-questions .tabs .tab-button {
+    font-size: 0.9rem;
+  }
+  #downloads .downloads-container .downloads .accordion, #downloads .downloads-container .sample-questions .accordion {
+    max-width: 100%;
+  }
+  #downloads .downloads-container .downloads .accordion .accordion-item .accordion-tab, #downloads .downloads-container .downloads .accordion .accordion-item .accordion-content, #downloads .downloads-container .sample-questions .accordion .accordion-item .accordion-tab, #downloads .downloads-container .sample-questions .accordion .accordion-item .accordion-content {
+    font-size: 0.9rem;
+  }
+  #about-contact {
+    flex-direction: column;
+  }
+  #about-contact .about-us {
+    margin: 0;
+  }
+  #about-contact .about-us h1 {
+    font-size: 2rem;
+  }
+  #about-contact .about-us p {
+    font-size: 0.9rem;
+  }
+  #about-contact .contact-us {
+    margin: 0;
+  }
+  #about-contact .contact-us h1 {
+    font-size: 2rem;
+  }
+  #about-contact .contact-us form .form-group label {
+    font-size: 0.9rem;
+  }
+  #about-contact .contact-us form .form-group input {
+    font-size: 0.9rem;
+  }
+  #about-contact .contact-us form .form-group textarea {
+    font-size: 0.9rem;
+  }
+  #about-contact .contact-us form button[type=submit] {
+    font-size: 0.9rem;
+    padding: 10px 15px;
+  }
+  #footer {
+    padding: 10px 0;
+  }
+  #footer p {
+    font-size: 0.9rem;
   }
 }/*# sourceMappingURL=styles.css.map */
