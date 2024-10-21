@@ -14,6 +14,33 @@ navLink.forEach(link => {
     });
 });
 
+// Update the navbar and url
+
+window.addEventListener('scroll', () => {
+    const sections = document.querySelectorAll('section');
+    const navLinks = document.querySelectorAll('.nav-links a');
+    let currentPosition = window.scrollY + window.innerHeight / 2;
+
+    sections.forEach((section, index) => {
+        const sectionTop = section.offsetTop;
+        const sectionHeight = section.offsetHeight;
+
+        // Check if the section is in view
+        if (currentPosition >= sectionTop && currentPosition < sectionTop + sectionHeight) {
+            // Remove active class from all links
+            navLinks.forEach(link => link.classList.remove('active'));
+            // Add active class to the corresponding link
+            navLinks[index].classList.add('active');
+
+            // Update the URL hash without reloading the page
+            const currentHash = window.location.hash;
+            const sectionId = section.getAttribute('id');
+            if (currentHash !== `#${sectionId}`) {
+                history.pushState(null, null, `#${sectionId}`);
+            }
+        }
+    });
+});
 
 // Logo Slider 
 

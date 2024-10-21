@@ -330,6 +330,7 @@ header nav .nav-links .menu-btn i {
   border: 3px solid #fbf6e0;
   border-radius: 20px;
   cursor: pointer;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
 }
 #university-notifications .notification-list .notification p {
   margin-bottom: 10px;
@@ -341,7 +342,7 @@ header nav .nav-links .menu-btn i {
   font-size: 1.25rem;
 }
 
-#gallery {
+#faculty {
   position: relative;
   width: 100vw;
   text-align: left;
@@ -352,20 +353,20 @@ header nav .nav-links .menu-btn i {
   z-index: 1;
   transform: translateY(0);
 }
-#gallery .gallery-title {
+#faculty .gallery-title {
   margin-left: 100px;
   padding-top: 20px;
 }
-#gallery .gallery-title h1 {
+#faculty .gallery-title h1 {
   font-size: 3.125rem;
   color: #fbf6e0;
   text-shadow: -5px 3px 4px rgba(0, 0, 0, 0.33);
   margin-bottom: 20px;
 }
-#gallery .gallery-title p {
+#faculty .gallery-title p {
   font-size: 1.125rem;
 }
-#gallery .gallery-container {
+#faculty .gallery-container {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -373,7 +374,7 @@ header nav .nav-links .menu-btn i {
   margin: 0 auto;
   gap: 40px;
 }
-#gallery .gallery-container .image-card {
+#faculty .gallery-container .image-card {
   background-color: #ffffff;
   display: flex;
   justify-content: center;
@@ -389,10 +390,10 @@ header nav .nav-links .menu-btn i {
   border-radius: 20px;
   transition: transform 0.3s ease;
 }
-#gallery .gallery-container .image-card:hover {
+#faculty .gallery-container .image-card:hover {
   transform: translateY(-5px);
 }
-#gallery .gallery-container .image-card img {
+#faculty .gallery-container .image-card img {
   position: absolute;
   top: 40%;
   left: 50%;
@@ -401,7 +402,7 @@ header nav .nav-links .menu-btn i {
      object-fit: cover;
   transform: translate(-50%, -50%);
 }
-#gallery .gallery-container .image-card button {
+#faculty .gallery-container .image-card button {
   font-family: "Jost";
   color: #ffffff;
   position: absolute;
@@ -414,6 +415,7 @@ header nav .nav-links .menu-btn i {
   border-radius: 10px;
   width: calc(100% - 25px);
   cursor: pointer;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
 }
 
 #events {
@@ -456,6 +458,7 @@ header nav .nav-links .menu-btn i {
   border: none;
   font-family: "Jost";
   cursor: pointer;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
 }
 #events .left-right-container .left button i {
   padding-left: 15px;
@@ -730,38 +733,13 @@ header nav .nav-links .menu-btn i {
     overflow-x: hidden;
   }
   header .title {
-    margin-left: 20px;
-    width: 50%;
-    font-size: 1.3rem;
+    margin-left: 0;
+    width: 100%;
+    font-size: 1.6rem;
+    text-align: center;
   }
   header nav {
-    margin-right: 0;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-end;
-  }
-  header nav .nav-links {
     display: none;
-  }
-  header nav .nav-links.active {
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    top: 275px;
-    align-items: flex-end;
-    background: rgba(176, 177, 130, 0.7);
-  }
-  header nav .menu-btn {
-    position: absolute;
-    display: block;
-    margin-right: 20px;
-    font-size: 1.3rem;
-  }
-  header nav ul li {
-    padding: 20px 20px;
-  }
-  header nav ul li a {
-    font-size: 1.25rem;
   }
   #home {
     background: linear-gradient(0deg, #7ca2a1 50%, #c1d5c9 50%);
@@ -819,22 +797,22 @@ header nav .nav-links .menu-btn i {
   #university-notifications .notification-list .notification a {
     font-size: 0.9rem;
   }
-  #gallery .gallery-title {
+  #faculty .gallery-title {
     margin: 0;
     padding: 0;
   }
-  #gallery .gallery-title h1 {
+  #faculty .gallery-title h1 {
     font-size: 2rem;
   }
-  #gallery .gallery-title p {
+  #faculty .gallery-title p {
     font-size: 0.9rem;
   }
-  #gallery .gallery-container .image-card {
+  #faculty .gallery-container .image-card {
     height: 250px;
     min-width: 40%;
     max-width: 50%;
   }
-  #gallery .gallery-container .image-card button {
+  #faculty .gallery-container .image-card button {
     font-size: 0.8125rem;
     padding: 10px 5px;
   }
@@ -927,5 +905,28 @@ header nav .nav-links .menu-btn i {
   }
   #footer p {
     font-size: 0.9rem;
+  }
+}
+@media only screen and (max-width: 791px) {
+  header {
+    justify-content: center;
+  }
+  header .title {
+    display: none;
+  }
+  header nav {
+    margin: 0;
+  }
+  header nav ul li {
+    padding: 0 20px;
+  }
+  #home .left-right-container .scroll-text {
+    width: 100%;
+  }
+  #home .left-right-container .left {
+    padding: 70px 0 0 35px;
+  }
+  #home .left-right-container .left h1 {
+    font-size: 2.125rem;
   }
 }/*# sourceMappingURL=styles.css.map */
