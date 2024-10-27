@@ -653,6 +653,9 @@ header nav .nav-links .menu-btn i {
 #about-contact .about-us p, #about-contact .contact-us p {
   margin-bottom: 15px;
 }
+#about-contact .about-us p a, #about-contact .contact-us p a {
+  color: #000000;
+}
 #about-contact .about-us form, #about-contact .contact-us form {
   display: flex;
   flex-direction: column;
