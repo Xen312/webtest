@@ -21,31 +21,35 @@ $text-shadow:
     box-sizing: border-box;
 }
 
-// Main container styles
-#events-section {
+body {
     background: $primary-bg-1;
     height: auto;
+}
 
+header {
     .event-title {
         text-align: left;
         padding-top: 20px;
         margin-left: 100px;
         margin-right: 100px;
-
+    
         h1 {
-            font-size: $title-font-size;
+            font-size: calc($title-font-size);
             text-shadow: $text-shadow;
             color: $title-color;
             margin-bottom: 20px;
             font-family: $primary-font-family;
         }
-
+    
         p {
             font-size: $para-font-size;
             font-family: $secondary-font-family;
         }
     }
+}
 
+// Main container styles
+#events-section {
     .events-container {
         margin-left: 100px;
         margin-right: 100px;

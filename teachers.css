@@ -11,6 +11,7 @@ html {
 
 body {
   overflow-x: hidden;
+  background: #b0b182;
 }
 
 h1, h2, h3, h4 {
@@ -22,13 +23,13 @@ p {
   font-family: "Jost";
 }
 
-#teachers {
-  background: #b0b182;
-}
-#teachers .teachers-title {
-  font-size: 3.125rem;
+header .teachers-title {
+  font-size: 2.125rem;
   margin-left: 20px;
+  color: #fbf6e0;
+  text-shadow: -5px 3px 4px rgba(0, 0, 0, 0.33);
 }
+
 #teachers .profiles-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr); /* 2 columns of equal width */
