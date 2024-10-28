@@ -214,22 +214,19 @@ form.addEventListener('submit', e => {
         });
 });
 
-// Check if all form fields are filled
-const inputs = form.querySelectorAll('input, textarea');
-const submitBtn = document.getElementById('submitBtn');
+const inputs = document.querySelectorAll('#complaint-form input, #complaint-form textarea');
+    const phoneInput = document.getElementById('phone');
+    const submitBtn = document.getElementById('submitBtn');
 
-function checkInputs() {
-    const allFilled = Array.from(inputs).every(input => input.value.trim() !== '');
-    submitBtn.disabled = !allFilled; // Enable or disable submit button based on input completion
-}
+    // Check if all fields are filled and phone number is 10 digits
+    function checkInputs() {
+        const allFilled = Array.from(inputs).every(input => input.value.trim() !== '');
+        const phoneValid = phoneInput.value.length === 10; // Check if phone number has exactly 10 digits
+        submitBtn.disabled = !(allFilled && phoneValid); // Enable or disable submit button
+    }
 
-// Add input event listener to all inputs
-inputs.forEach(input => {
-    input.addEventListener('input', checkInputs);
-});
-
-// Initial check in case some fields are pre-filled
-checkInputs();
+    // Listen for input on each field
+    inputs.forEach(input => input.addEventListener('input', checkInputs));
 
 // Select all event cards
 const eventCards = document.querySelectorAll('.event-card');
