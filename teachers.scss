@@ -136,13 +136,13 @@ header {
 }
 
 @media only screen and (max-width: 491px) {
-    #teachers {
+    header {
         .teachers-title {
-            h1 {
-                font-size: 2rem;
-            }
+            font-size: calc($title-font-size - 2rem);
         }
+    }
 
+    #teachers {
         .profiles-container {
             grid-template-columns: 1fr;
 

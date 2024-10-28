@@ -157,15 +157,15 @@ header .event-title p {
 }
 
 @media only screen and (max-width: 480px) {
-  #events-section .event-title {
+  header .event-title {
     margin: 0;
     padding: 20px 20px 0 20px;
   }
-  #events-section .event-title h1 {
+  header .event-title h1 {
     font-size: 2rem;
     margin-bottom: 10px;
   }
-  #events-section .event-title p {
+  header .event-title p {
     font-size: 0.7rem;
   }
   #events-section .events-container {

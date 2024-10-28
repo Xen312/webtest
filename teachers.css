@@ -105,8 +105,8 @@ header .teachers-title {
 }
 
 @media only screen and (max-width: 491px) {
-  #teachers .teachers-title h1 {
-    font-size: 2rem;
+  header .teachers-title {
+    font-size: 1.125rem;
   }
   #teachers .profiles-container {
     grid-template-columns: 1fr;
