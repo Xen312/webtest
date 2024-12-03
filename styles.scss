@@ -370,6 +370,7 @@ header {
     width: 100vw;
     padding: 80px 20px;
     background: $primary-bg-1;
+    overflow-y: auto;
 
     .notification-title {
         margin-left: 50px;

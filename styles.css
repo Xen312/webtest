@@ -298,6 +298,7 @@ header nav .nav-links .menu-btn i {
   width: 100vw;
   padding: 80px 20px;
   background: #b0b182;
+  overflow-y: auto;
 }
 #university-notifications .notification-title {
   margin-left: 50px;
