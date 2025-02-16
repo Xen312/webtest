@@ -372,6 +372,33 @@ header {
     background: $primary-bg-1;
     overflow-y: auto;
 
+    .button-container{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    button {
+        display: flex;
+        align-items: center;
+        margin-top: 40px;
+        font-size: $para-font-size;
+        font-weight: 500;
+        padding: 15px 40px;
+        border-radius: 50px;
+        background-color: $title-color;
+        border: none;
+        font-family: $secondary-font-family;
+        cursor: pointer;
+        box-shadow: $box-shadow;
+
+        i {
+            padding-left: 15px;
+            padding-top: 3px;
+        }
+    }
+
     .notification-title {
         margin-left: 50px;
         padding-top: 20px;

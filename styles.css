@@ -300,6 +300,30 @@ header nav .nav-links .menu-btn i {
   background: #b0b182;
   overflow-y: auto;
 }
+#university-notifications .button-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#university-notifications button {
+  display: flex;
+  align-items: center;
+  margin-top: 40px;
+  font-size: 1.125rem;
+  font-weight: 500;
+  padding: 15px 40px;
+  border-radius: 50px;
+  background-color: #fbf6e0;
+  border: none;
+  font-family: "Jost";
+  cursor: pointer;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+}
+#university-notifications button i {
+  padding-left: 15px;
+  padding-top: 3px;
+}
 #university-notifications .notification-title {
   margin-left: 50px;
   padding-top: 20px;

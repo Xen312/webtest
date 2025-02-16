@@ -1,0 +1,161 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Unicase:wght@300;400;500;600;700&family=Jost:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h4 {
+  font-family: "Cormorant Unicase";
+  font-weight: 700;
+}
+
+p {
+  font-family: "Jost";
+}
+
+#university-notifications {
+  position: relative;
+  width: 100vw;
+  padding: 0 20px 20px;
+  background: #b0b182;
+  overflow-y: auto;
+}
+#university-notifications .notification-title {
+  margin-left: 50px;
+  padding-top: 20px;
+}
+#university-notifications .notification-title h1 {
+  font-size: 3.125rem;
+  margin-bottom: 20px;
+  color: #fbf6e0;
+  text-shadow: -5px 3px 4px rgba(0, 0, 0, 0.33);
+}
+#university-notifications .notification-title p {
+  font-size: 1.125rem;
+  margin-bottom: 10px;
+}
+#university-notifications .notification-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 40px;
+  margin-top: 20px;
+  margin: auto 50px;
+}
+#university-notifications .notification-list .notification {
+  flex: 1;
+  min-width: 250px;
+  max-width: 33%;
+  background: #ffffff;
+  padding: 20px;
+  border: 3px solid #fbf6e0;
+  border-radius: 20px;
+  cursor: pointer;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+}
+#university-notifications .notification-list .notification p {
+  margin-bottom: 10px;
+  font-size: 1.125rem;
+}
+#university-notifications .notification-list .notification a {
+  color: #04385d;
+  font-family: "Jost";
+  font-size: 1.25rem;
+}
+
+@media only screen and (max-width: 491px) {
+  #university-notifications {
+    height: 100vh;
+    padding: 40px 20px;
+  }
+  #university-notifications .notification-title {
+    margin: 0;
+  }
+  #university-notifications .notification-title h1 {
+    font-size: 2rem;
+  }
+  #university-notifications .notification-title p {
+    font-size: 0.9rem;
+  }
+  #university-notifications .notification-list {
+    margin: 0;
+  }
+  #university-notifications .notification-list .notification {
+    min-width: 100%;
+    padding: 10px;
+  }
+  #university-notifications .notification-list .notification p {
+    font-size: 0.9rem;
+    margin: 10px 0;
+  }
+  #university-notifications .notification-list .notification a {
+    font-size: 0.9rem;
+  }
+}
+@media only screen and (min-width: 491px) and (max-width: 791px) {
+  #university-notifications {
+    height: 100vh;
+    padding: 40px 20px;
+  }
+  #university-notifications .notification-title {
+    margin: 0;
+  }
+  #university-notifications .notification-title h1 {
+    font-size: 3rem;
+  }
+  #university-notifications .notification-title p {
+    font-size: 1.5rem;
+  }
+  #university-notifications .notification-list {
+    margin: 0;
+  }
+  #university-notifications .notification-list .notification {
+    min-width: 100%;
+    padding: 10px;
+  }
+  #university-notifications .notification-list .notification p {
+    font-size: 1.5rem;
+    margin: 10px 0;
+  }
+  #university-notifications .notification-list .notification a {
+    font-size: 1.5rem;
+  }
+}
+@media only screen and (min-width: 792px) and (max-width: 1040px) {
+  #university-notifications {
+    height: 100vh;
+    padding: 40px 20px;
+  }
+  #university-notifications .notification-title {
+    margin: 0;
+  }
+  #university-notifications .notification-title h1 {
+    font-size: 5rem;
+  }
+  #university-notifications .notification-title p {
+    font-size: 2rem;
+  }
+  #university-notifications .notification-list {
+    margin: 0;
+  }
+  #university-notifications .notification-list .notification {
+    min-width: 100%;
+    padding: 10px;
+  }
+  #university-notifications .notification-list .notification p {
+    font-size: 2rem;
+    margin: 10px 0;
+  }
+  #university-notifications .notification-list .notification a {
+    font-size: 2rem;
+  }
+}/*# sourceMappingURL=notifications.css.map */
