@@ -1,32 +1,18 @@
-async function loadNotifications(containerId) {
-    try {
-      const response = await fetch('notifications.php');
-      const data = await response.json();
-  
-      const container = document.getElementById(containerId);
-      container.innerHTML = '';
-  
-      data.files.forEach(file => {
-        const item = document.createElement('div');
-        item.classList.add('notification-item');
-        item.innerHTML = `
-          <a href="${file.webViewLink}" target="_blank">${file.name}</a>
-          <span class="date">${new Date(file.createdTime).toLocaleDateString()}</span>
-        `;
-        container.appendChild(item);
-      });
-    } catch (err) {
-      console.error('Failed to load notifications:', err);
-    }
-  }
-  
-  document.addEventListener('DOMContentLoaded', () => {
-    // Load into both sections if they exist
-    if (document.getElementById('index-notifications')) {
-      loadNotifications('index-notifications');
-    }
-    if (document.getElementById('full-notifications')) {
-      loadNotifications('full-notifications');
-    }
+fetch("https://script.google.com/macros/s/AKfycbxU5cc_Y330f6uz53f1z6KRW0Trz8wBRB_Ya2WkmwCWs8qUZiXxhi5IHR7QIPeT7qOKtA/exec")
+  .then(res => res.json())
+  .then(data => {
+    const container = document.getElementById("notifications");
+
+    data.forEach(item => {
+      const div = document.createElement("div");
+      div.classList.add("notification");
+      div.innerHTML = `
+        <a href="${item.url}" target="_blank">${item.name}</a>
+        <small>Uploaded: ${new Date(item.createdDate).toLocaleString()}</small>
+      `;
+      container.appendChild(div);
+    });
+  })
+  .catch(err => {
+    console.error("Failed to load notifications:", err);
   });
-  
