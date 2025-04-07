@@ -1,7 +1,7 @@
 fetch("https://script.google.com/macros/s/AKfycbxU5cc_Y330f6uz53f1z6KRW0Trz8wBRB_Ya2WkmwCWs8qUZiXxhi5IHR7QIPeT7qOKtA/exec?key=AIzaSyBDbRMAGo7lTPhHEbqTh8YBmwduhrlNYzI")
   .then(res => res.json())
   .then(data => {
-    const container = document.getElementById("notifications");
+    const container = document.getElementById("notification-list");
 
     data.forEach(item => {
       const div = document.createElement("div");
