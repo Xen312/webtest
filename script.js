@@ -266,37 +266,3 @@ galleries.forEach(gallery => {
     });
 });
 
-async function fetchNotifications() {
-    try {
-        const response = await fetch("http://localhost:5000/api/notifications");
-        const data = await response.json();
-
-        const notificationList = document.querySelector(".notification-list");
-        notificationList.innerHTML = ""; // Clear previous content
-
-        // Take only the first 6 notifications
-        data.notifications.slice(0, 6).forEach(notification => {
-            const div = document.createElement("div");
-            div.classList.add("notification");
-
-            if (notification.title) {
-                const title = document.createElement("h1");
-                title.textContent = notification.title;
-                div.appendChild(title);
-            }
-
-            const link = document.createElement("a");
-            link.href = notification.link;
-            link.textContent = "View Notification";
-            link.target = "_blank";
-
-            div.appendChild(link);
-            notificationList.appendChild(div);
-        });
-    } catch (error) {
-        console.error("Error fetching notifications:", error);
-    }
-}
-
-// Run on page load
-document.addEventListener("DOMContentLoaded", fetchNotifications);
